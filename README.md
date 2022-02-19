@@ -8,7 +8,7 @@
 
 This system is suitable for automatic switching of camera splits in dance videos. It is based on the calculation of optical flow and bone position, and uses Beat as a node (hereinafter referred to as "shot").
 
-Calculate the optical flow at the end of each shot and the end of the previous shot, which is used to represent the intensity of the action and other probabilistic models that do not understand dimensions.
+Calculate the optical flow at the end of each shot and the end of the previous shot to represent the probability model of multiple different dimensions such as the intensity of the action.
 
 Among multiple cameras with preset relative positions, the one with the highest calculated probability is selected as the current camera.
 
